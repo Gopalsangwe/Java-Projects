@@ -1,0 +1,189 @@
+import java.awt.*;
+import java.applet.*;
+/*<applet code="ap4.class"width="600" height="600"></applet>*/
+public class ap4 extends Applet
+{
+public void paint(Graphics g)
+ {
+ //MONITOR
+ g.drawRect(150,70,220,140);
+
+ g.fillRect(155,75,210,125);
+
+ g.drawRect(250,210,25,25);
+
+ g.drawOval(205,235,120,50);
+ //CABINET
+ g.setColor(Color.black);
+ g.fillRect(470,50,60,170);
+ //USB
+ g.setColor(Color.white);
+ g.fillRect(510,120,10,20);
+ g.fillRect(510,150,10,20);
+ g.setColor(Color.black);
+ g.drawRect(512,152,6,15);
+ g.drawRect(512,122,6,15);
+ g.setColor(Color.white);
+ //AUDIO JACK
+ g.fillOval(510,180,10,10);
+
+
+ g.fillOval(510,200,10,10);
+ //DRIVe
+ g.fillRect(480,120,10,90);
+ g.setColor(Color.black);
+ g.drawRect(482,122,5,85);
+ g.setColor(Color.black);
+ g.drawRect(510,60,15,15);
+ g.setColor(Color.red);
+ g.drawOval(514,63,8,8);
+ g.drawLine(518,62,518,66);
+ g.setColor(Color.black);
+ g.drawRect(515,220,5,5);
+ g.drawRect(480,220,5,5);
+ //keyboard
+ g.setColor(Color.black);
+ g.drawRect(126,347,217,55);
+ g.setColor(Color.black);
+ g.fillRect(130,350,210,50);
+ g.setColor(Color.white);
+ //1ROW
+ g.drawRect(133,352,5,5);
+ g.drawRect(143,352,5,5);
+ g.drawRect(151,352,5,5);
+ g.drawRect(159,352,5,5);
+ g.drawRect(167,352,5,5);
+ g.drawRect(177,352,5,5);
+ g.drawRect(185,352,5,5);
+ g.drawRect(193,352,5,5);
+ g.drawRect(201,352,5,5);
+ g.drawRect(211,352,5,5);
+ g.drawRect(219,352,5,5);
+ g.drawRect(227,352,5,5);
+ g.drawRect(235,352,5,5);
+ g.setColor(Color.red);
+ g.fillOval(270,352,5,5);
+ g.setColor(Color.yellow);
+ g.fillOval(278,352,5,5);
+ g.setColor(Color.green);
+ g.fillOval(286,352,5,5);
+ g.setColor(Color.white);
+
+g.drawRect(316,352,5,5);
+g.drawRect(324,352,5,5);
+g.drawRect(332,352,5,5);
+//2ROW
+g.drawRect(133,360,5,5);
+g.drawRect(141,360,5,5);
+g.drawRect(149,360,5,5);
+g.drawRect(157,360,5,5);
+g.drawRect(165,360,5,5);
+g.drawRect(173,360,5,5);
+g.drawRect(181,360,5,5);
+g.drawRect(189,360,5,5);
+g.drawRect(197,360,5,5);
+g.drawRect(204,360,5,5);
+g.drawRect(212,360,5,5);
+g.drawRect(220,360,5,5);
+g.drawRect(228,360,5,5);
+g.drawRect(236,360,15,5);
+g.drawRect(270,360,5,5);
+g.drawRect(278,360,5,5);
+g.drawRect(286,360,5,5);
+g.drawRect(307,360,5,5);
+g.drawRect(315,360,5,5);
+g.drawRect(323,360,5,5);
+g.drawRect(331,360,5,5);
+//3ROW
+g.drawRect(133,368,8,5);
+g.drawRect(145,368,5,5);
+g.drawRect(153,368,5,5);
+g.drawRect(161,368,5,5);
+g.drawRect(169,368,5,5);
+g.drawRect(177,368,5,5);
+g.drawRect(185,368,5,5);
+g.drawRect(193,368,5,5);
+g.drawRect(201,368,5,5);
+g.drawRect(209,368,5,5);
+g.drawRect(217,368,5,5);
+g.drawRect(225,368,5,5);
+g.drawRect(233,368,5,5);
+//enterbutton
+g.drawRect(241,368,9,12);
+g.drawRect(270,368,5,5);
+g.drawRect(277,368,5,5);
+g.drawRect(285,368,5,5);
+g.drawRect(307,368,5,5);
+g.drawRect(315,368,5,5);
+g.drawRect(323,368,5,5);
+g.drawRect(331,368,5,5);
+//4ROW
+g.drawRect(133,376,9,5);
+g.drawRect(145,376,5,5);
+ g.drawRect(153,376,5,5);
+ g.drawRect(161,376,5,5);
+ g.drawRect(169,376,5,5);
+g.drawRect(177,376,5,5);
+g.drawRect(185,376,5,5);
+g.drawRect(193,376,5,5);
+g.drawRect(201,376,5,5);
+g.drawRect(209,376,5,5);
+g.drawRect(217,376,5,5);
+g.drawRect(225,376,5,5);
+g.drawRect(233,376,5,5);
+g.drawRect(307,376,5,5);
+g.drawRect(315,376,5,5);
+g.drawRect(323,376,5,5);
+g.drawRect(331,376,5,5);
+//5ROW
+g.drawRect(133,384,15,5);
+g.drawRect(152,384,5,5);
+g.drawRect(160,384,5,5);
+g.drawRect(168,384,5,5);
+g.drawRect(176,384,5,5);
+g.drawRect(184,384,5,5);
+g.drawRect(192,384,5,5);
+g.drawRect(200,384,5,5);
+g.drawRect(208,384,5,5);
+g.drawRect(216,384,5,5);
+g.drawRect(224,384,5,5);
+g.drawRect(232,384,18,5);
+g.drawRect(279,384,5,5);
+g.drawRect(307,384,5,5);
+g.drawRect(315,384,5,5);
+g.drawRect(323,384,5,5);
+g.drawRect(331,384,5,5);
+//6ROW
+g.drawRect(133,392,7,5);
+g.drawRect(143,392,7,5);
+g.drawRect(153,392,7,5);
+ g.drawRect(163,392,47,5);
+ g.drawRect(213,392,7,5);
+g.drawRect(223,392,7,5);
+ g.drawRect(233,392,7,5);
+ g.drawRect(243,392,7,5);
+ g.drawRect(271,392,5,5);
+ g.drawRect(279,392,5,5);
+ g.drawRect(287,392,5,5);
+g.drawRect(307,392,5,5);
+g.drawRect(315,392,5,5);
+g.drawRect(323,392,5,5);
+g.drawRect(331,392,5,5);
+//MOUSE
+g.setColor(Color.black);
+g.drawOval(400,350,32,50);
+
+g.fillOval(412,360,8,16);
+ g.drawLine(400,377,430,377);
+ g.drawLine(416,350,416,360);
+//WIRE
+g.drawArc(420,200,100,300,90,90);
+ g.drawArc(330,195,278,310,90,90);
+ g.drawLine(370,180,470,180);
+ g.setColor(Color.blue);
+g.drawString("Gopal",245,208);
+}
+public static void main(String args[]){
+    new ap4();
+}
+}
